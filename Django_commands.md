@@ -5,17 +5,17 @@ source myvenv/Scripts(mac:bin)/activate
 ```python
 source myvenv/bin/activate
 ```
-
+<br>
 ## 🤔<span style="color:red">현재 디렉토리 확인 $/~/manage.py</span>  
 `ls`
-
+<br>
  ## 앱 생성  
-1. manage.py로 새로운 앱 생성
+**1. manage.py로 새로운 앱 생성**
 ```python
  python manage.py startapp <appname>
 ```                                 
 <br>
-2. project의 settings.py에서 app등록
+**2. project의 settings.py에서 app등록**
 
 ```python
 # Application definition
@@ -30,9 +30,9 @@ INSTALLED_APPS = [
     'appname',  #등록
 ]
 ```
-
+<br>
 # 🙀 MTV 패턴 -> developement_sequence.md
-
+<br>
 ## View
 - view는 지휘자, 컨트롤러
 - 기능, 처리 
@@ -44,7 +44,7 @@ def home(request) :
     return render(request, 'home.html')
 ```
 ###### 모델을 다루지 않으므로 바로 return
-
+<br>
 ## Template
 
 - 화면 표시
@@ -66,6 +66,7 @@ def home(request) :
 </html>
 ```
 `! + tab키` : html 문서 기본 규격 자동 생성
+<br>
 ## URL
 - project의 urls.py
 ```python
