@@ -1,4 +1,4 @@
-🤔 ##<span style="color:red">가상환경 활성화 확인</span>  
+## 🤔<span style="color:red">가상환경 활성화 확인</span> 
 ```python
 source myvenv/Scripts(mac:bin)/activate
 ```
@@ -6,10 +6,10 @@ source myvenv/Scripts(mac:bin)/activate
 source myvenv/bin/activate
 ```
 
-🤔 ##<span style="color:red">현재 디렉토리 확인 $/~/manage.py</span>  
+## 🤔<span style="color:red">현재 디렉토리 확인 $/~/manage.py</span>  
 `ls`
 
- ##앱 생성  
+ ## 앱 생성  
 1. manage.py로 새로운 앱 생성
 ```python
  python manage.py startapp <appname>
@@ -31,9 +31,9 @@ INSTALLED_APPS = [
 ]
 ```
 
-#🙀 MTV 패턴 -> developement_sequence.md
+# 🙀 MTV 패턴 -> developement_sequence.md
 
-##View
+## View
 - view는 지휘자, 컨트롤러
 - 기능, 처리 
 ```python
@@ -43,9 +43,9 @@ def home(request) :
     #이 자리에 모델을 다루는 코드가 들어감.
     return render(request, 'home.html')
 ```
-######모델을 다루지 않으므로 바로 return
+###### 모델을 다루지 않으므로 바로 return
 
-##Template
+## Template
 
 - 화면 표시
 1. app 안에 직접 `templates` 디렉토리 생성
@@ -66,7 +66,7 @@ def home(request) :
 </html>
 ```
 `! + tab키` : html 문서 기본 규격 자동 생성
-##URL
+## URL
 - project의 urls.py
 ```python
 from django.contrib import admin
