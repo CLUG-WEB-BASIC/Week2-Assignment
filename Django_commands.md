@@ -1,3 +1,5 @@
+# Django Commands
+
 ## 🤔<span style="color:red">가상환경 활성화 확인</span> 
 ```python
 source myvenv/Scripts(mac:bin)/activate
@@ -6,9 +8,11 @@ source myvenv/Scripts(mac:bin)/activate
 source myvenv/bin/activate
 ```
 <br>
+
 ## 🤔<span style="color:red">현재 디렉토리 확인 $/~/manage.py</span>  
 `ls`
 <br>
+
  ## 앱 생성  
 **1. manage.py로 새로운 앱 생성**
 ```python
@@ -31,8 +35,10 @@ INSTALLED_APPS = [
 ]
 ```
 <br>
+
 # 🙀 MTV 패턴 -> developement_sequence.md
 <br>
+
 ## View
 - view는 지휘자, 컨트롤러
 - 기능, 처리 
@@ -45,6 +51,7 @@ def home(request) :
 ```
 ###### 모델을 다루지 않으므로 바로 return
 <br>
+
 ## Template
 
 - 화면 표시
@@ -67,6 +74,7 @@ def home(request) :
 ```
 `! + tab키` : html 문서 기본 규격 자동 생성
 <br>
+
 ## URL
 - project의 urls.py
 ```python
