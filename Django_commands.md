@@ -1,4 +1,4 @@
-##🤔<span style="color:red">가상환경 활성화 확인</span>  
+🤔 ##<span style="color:red">가상환경 활성화 확인</span>  
 ```python
 source myvenv/Scripts(mac:bin)/activate
 ```
@@ -6,7 +6,7 @@ source myvenv/Scripts(mac:bin)/activate
 source myvenv/bin/activate
 ```
 
-##🤔<span style="color:red">현재 디렉토리 확인 $/~/manage.py</span>  
+🤔 ##<span style="color:red">현재 디렉토리 확인 $/~/manage.py</span>  
 `ls`
 
  ##앱 생성  
