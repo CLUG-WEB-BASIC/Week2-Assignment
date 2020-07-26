@@ -19,5 +19,3 @@
 👉 `webBasic_memo`
 
 접속 후 url창에 /memo 입력
-
-## 가상환경 활성화 잊지 말기!
