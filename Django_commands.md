@@ -10,7 +10,7 @@ source myvenv/bin/activate
 <br>
 
 ## 🤔현재 디렉토리 확인 $/~/manage.py
-`ls`
+```ls```
 <br><br>
 
  ## 앱 생성  
@@ -38,7 +38,7 @@ INSTALLED_APPS = [
 <br>
 
 # 🙀 MTV 패턴 -> developement_sequence.md
-<br>
+<br><br>
 
 ## View
 - view는 지휘자, 컨트롤러
@@ -74,7 +74,7 @@ def home(request) :
 </html>
 ```
 `! + tab키` : html 문서 기본 규격 자동 생성
-<br>
+<br><br>
 
 ## URL
 - project의 urls.py
