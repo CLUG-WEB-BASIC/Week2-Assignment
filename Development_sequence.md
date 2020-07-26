@@ -24,4 +24,4 @@ for 앱 추가
 생일이라는 데이터를 추가해야겠다 -> `models.py` 수정
 
 ## MTV 패턴
-!(mtv)[./static/mtv.png]
+![mtv](https://user-images.githubusercontent.com/52988414/88481435-77318700-cf96-11ea-9789-b73f46f99263.png)
