@@ -1,6 +1,6 @@
 # Django Commands
 
-## 🤔<span style="color:red">가상환경 활성화 확인</span> 
+## 🤔가상환경 활성화 확인
 ```python
 source myvenv/Scripts(mac:bin)/activate
 ```
@@ -9,9 +9,9 @@ source myvenv/bin/activate
 ```
 <br>
 
-## 🤔<span style="color:red">현재 디렉토리 확인 $/~/manage.py</span>  
+## 🤔현재 디렉토리 확인 $/~/manage.py
 `ls`
-<br>
+<br><br>
 
  ## 앱 생성  
 **1. manage.py로 새로운 앱 생성**
@@ -19,6 +19,7 @@ source myvenv/bin/activate
  python manage.py startapp <appname>
 ```                                 
 <br>
+
 **2. project의 settings.py에서 app등록**
 
 ```python
