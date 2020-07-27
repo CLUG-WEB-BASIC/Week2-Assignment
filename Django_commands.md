@@ -2,7 +2,7 @@
 
 ## 🤔가상환경 활성화 확인
 ```python
-source myvenv/Scripts(mac:bin)/activate
+source myvenv/Scripts/activate
 ```
 ```python
 source myvenv/bin/activate
